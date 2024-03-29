@@ -19,7 +19,6 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="en">
       <body className="font-raleway" >
-        layout
         {/* <AuthStorage>
           <Suspense fallback={<Loading />}>
             <Navbar />
@@ -34,6 +33,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
             </div>
           </Suspense>
         </AuthStorage> */}
+        {children}
       </body>
     </html >
   );

@@ -3,7 +3,7 @@
 import React, { createContext, useState } from 'react';
 
 
-export const AuthContex = createContext(null);
+export const AuthContex = createContext("");
 
 const AuthStorage = ({ children }) => {
     const [loginUser, setLoginUser] = useState(null);

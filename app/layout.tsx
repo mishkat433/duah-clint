@@ -1,8 +1,8 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
-// import Navbar from './../Components/Navbar/Navbar';
-// import Sidebar from './../Components/Navbar/Sidebar';
+import Navbar from './../Components/Navbar/Navbar';
+import Sidebar from './../Components/Navbar/Sidebar';
 // import { Suspense } from "react";
 // import Loading from './../Components/Loading';
 // import AuthStorage from "@/context.jsx/AuthStorage";
@@ -20,20 +20,19 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
     <html lang="en">
       <body className="font-raleway" >
         {/* <AuthStorage>
-          <Suspense fallback={<Loading />}>
-            <Navbar />
-            <div className="grid grid-cols-5">
-              <div className="col-span-1 bg-main  h-[calc(100vh-68px)]">
-                <div className="h-[1px] w-full bg-secondary opacity-20 shadow-md"></div>
-                <Sidebar />
-              </div>
-              <div className="col-span-4 shadow-md">
-                {children}
-              </div>
-            </div>
-          </Suspense>
+          <Suspense fallback={<Loading />}> */}
+        <Navbar />
+        <div className="grid grid-cols-5">
+          <div className="col-span-1 bg-main  h-[calc(100vh-68px)]">
+            <div className="h-[1px] w-full bg-secondary opacity-20 shadow-md"></div>
+            {/* <Sidebar /> */}
+          </div>
+          <div className="col-span-4 shadow-md">
+            {children}
+          </div>
+        </div>
+        {/* </Suspense>
         </AuthStorage> */}
-        {children}
       </body>
     </html >
   );

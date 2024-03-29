@@ -1,0 +1,38 @@
+[
+    {
+        "title": "পাঁচ কালেমা",
+        "details": [
+            {
+                "name": "কালেমা তাইয়্যেবা",
+                "banglaSpeling": "লা~ইলা-হা ইল্লাল্ল-হু মুহাম্মাদুর রসূলুল্ল-হ্‌।",
+                "arabic": " ب بتشسميبنتشسب شسبت شسيب شب شسمب ش",
+                "meaning": "lorem ipsum dolor sit amet, consectetur adipiscing",
+                "inEnglish": "in-Englisha lorem ipsum dolor sit amet, consectetur adip"
+            },
+            {
+                "title": "কালেমা শাহাদাত",
+                "details": [
+                    {
+                        "name": "কালেমা তাইয়্যেবা",
+                        "banglaSpeling": "আশ্‌হাদু আল-লা-ইলা-হা ইল্লাল্লা-হু ওয়াহ্‌দাহু-লা-শারীকালাহু ওয়া আশ্‌হাদু আন্না মুহাম্মাদান আ'বদুহু ওয়া রাসূলুহু।",
+                        "arabic": " ب بتشسميبنتشسب شسبت شسيب شب شسمب ش",
+                        "meaning": "lorem ipsum dolor sit amet, consectetur adipiscing",
+                        "inEnglish": "in-Englisha lorem ipsum dolor sit amet, consectetur adip"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "রাব্বি হাবলি মিনাস সালেহীন।",
+        "details": [
+            {
+                "name": "কালেমা তাইয়্যেবা",
+                "banglaSpeling": "লা~ইলা-হা ইল্লাল্ল-হু মুহাম্মাদুর রসূলুল্ল-হ্‌।",
+                "arabic": " ب بتشسميبنتشسب شسبت شسيب شب شسمب ش",
+                "banglaMeaning": "হে আমার পালনকর্তা, আমাকে নেককার সৎ-কর্মশীল সন্তান দান কর।",
+                "inEnglish": "in-Englisha lorem ipsum dolor sit amet, consectetur adip"
+            }
+        ]
+    }
+]
